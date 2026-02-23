@@ -39,7 +39,14 @@ Requests and responses will all be in JSON. The application will run at ``http:/
     <td>Update an existing practitioner. <i>Requires <b>Body</b></i>*</td>
     <td>practitioner: PractitionerDto</td>
   </tr> 
-    <tr>
+  <tr>
+    <td>/practitioners/findbyorg/{id}</td>
+    <td>GET</td>
+    <td>findByOrganization. </td>
+    <td>-</td>
+  </tr> 
+
+  <tr>
     <td>/patients</td>
     <td>GET</td>
     <td>find all patients. <i>Requires <b>Params</b></i>*</td>
@@ -76,10 +83,10 @@ Requests and responses will all be in JSON. The application will run at ``http:/
     <td>organization: OrganizationDto</td>
   </tr> 
   <tr>
-    <td>/organizations</td>
+    <td>/organizations/find/{name}</td>
     <td>GET</td>
     <td>findByName. </td>
-    <td>name: string</td>
+    <td>-</td>
   </tr> 
 
 
