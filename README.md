@@ -6,7 +6,7 @@
   <li>Spring Boot 4</li>
    <li>HyperSQL</li>
    <li>Spring Data JPA</li>
-   <li>Angular 20</li>
+   <li>Angular 21</li>
 </ul>
 
 ### Endpoints
