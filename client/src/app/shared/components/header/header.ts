@@ -10,10 +10,9 @@ import { Router } from '@angular/router';
 })
 export class Header implements OnInit {
 
-  @Output() languageChange = new EventEmitter<string>();
+  
   userData: {name: string, surname: string} | null  = {name:'', surname:''};
-  selectedLanguge = 'en';
-  availableLangugaes = ['en', 'it'];
+ 
 
 
   constructor(private userLoginService: UserLoginService, private router: Router) { }
@@ -27,9 +26,5 @@ export class Header implements OnInit {
     this.router.navigate(["/login"]);
   }
 
-  selectLanguage(language: string) {
-    console.log('langugae:', language);
-    this.selectedLanguge = language;
-    this.languageChange.emit(language)
-  }
+  
 }

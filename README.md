@@ -9,6 +9,9 @@
    <li>Angular 21</li>
 </ul>
 
+### TL;DR
+The practitioners can organize and schedule examinations for their patients in different places.
+
 ### Endpoints
 Requests and responses will all be in JSON. The application will run at ``http://localhost:8080`` which the essential endpoints are:
 <table>
