@@ -1,5 +1,7 @@
 # The healthcare app
 
+![app screenshot](./doc/screenshot.png)
+
 ### Tech stack
 <ul>
   <li>Maven</li>
